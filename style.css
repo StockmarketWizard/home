@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.n{  text:   'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60';
+text:'https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+ }
+body {
+  background-image: url(
+     'ia.jpg'
+    );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh,auto;
+   backdrop-filter: blur(6px) saturate(180%);
+}
+
+/* Glassmorphism card effect */
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(12, 14, 23, 0.28);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 24px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* background: black; */
+h1 {
+  color: white;
+  padding-bottom: rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.logo i {
+  color: #2ea44f;
+  fill: #2ea44f
+}
+
+li {
+  color: #fdfdfd;
+  font-size: 20px;
+  list-style: none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(32px) saturate(180%);
+  background-color: rgba(12, 14, 23, 0.28);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding:5px;
+  margin-bottom:  5px
+}
+
+li i {
+  margin-right: 7px
+  
+}
+
+ul {
+  margin-bottom: 1rem
+}
+
+.telegram-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(183deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 32%, rgba(0, 212, 255, 1) 100%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  margin: auto;
+}
+
+.telegram-button:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.telegram-button i {
+  margin-right: 10px;
+
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+@media screen and (min-width: 400px) {
+  .card{width:22rem}
+}
